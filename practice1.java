@@ -178,11 +178,24 @@
     
 // }
 
+import java.util.Scanner;
 
-class practice1{
+class Even{
+    public static void main(String[] args) {
+        // int nv= 10;
+        // while(nv<=20){
+        //     if(nv%2==0) System.out.println(nv + " ");
+        //     nv++;
+        // }
+        Scanner sc = new Scanner(System.in);
+        char input;
 
+        do {
+            System.out.println("Welcome");
 
-    
-    
+            System.out.println("Do you want again");
+            input = sc.next().charAt(0);
+        } while (input == 'y' || input == 'Y');
+    }
 }
 
