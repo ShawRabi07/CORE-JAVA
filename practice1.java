@@ -178,24 +178,51 @@
     
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Even{
+// class Even{
+//     public static void main(String[] args) {
+//         // int nv= 10;
+//         // while(nv<=20){
+//         //     if(nv%2==0) System.out.println(nv + " ");
+//         //     nv++;
+//         // }
+//         // Scanner sc = new Scanner(System.in);
+//         // char input;
+
+//         // do {
+//         //     System.out.println("Welcome");
+
+//         //     System.out.println("Do you want again");
+//         //     input = sc.next().charAt(0);
+//         // } while (input == 'y' || input == 'Y');
+
+//          char character = 'a';
+
+//         while ( character <= 'k'){
+
+//             if(character % 2 == 0){
+//                 System.out.println(character + " -> " + (int)character);
+//             }
+
+//             character++;
+
+//         }
+//     }
+// }
+
+
+ 
+class Main{
     public static void main(String[] args) {
-        // int nv= 10;
-        // while(nv<=20){
-        //     if(nv%2==0) System.out.println(nv + " ");
-        //     nv++;
-        // }
-        Scanner sc = new Scanner(System.in);
-        char input;
+        
+        Main d = new Main();
+        d.Out();
+        // Out();
+    }
 
-        do {
-            System.out.println("Welcome");
 
-            System.out.println("Do you want again");
-            input = sc.next().charAt(0);
-        } while (input == 'y' || input == 'Y');
+    public void Out(){
+        System.out.println("HEy i am outside static block");
     }
 }
-
