@@ -211,18 +211,90 @@
 //     }
 // }
 
+// import java.util.Arrays;
+// import java.util.Scanner;
 
- 
-class Main{
-    public static void main(String[] args) {
+
+
+// class Main{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//     //     int[] arr = new int[-5];
+//     //     for(int i = 0; i < 5;  i++){
+//     //         arr[i] =  sc.nextInt();
+
+//     //     }
+//     //     System.out.println(Arrays.toString(arr));
         
-        Main d = new Main();
-        d.Out();
-        // Out();
-    }
+
+//     //     Main d = new Main();
+//     //     d.Out();
+//     //     // Out();
+//     // }
 
 
-    public void Out(){
-        System.out.println("HEy i am outside static block");
+//     // public void Out(){
+//     //     System.out.println("HEy i am outside static block");
+//     // }
+
+    
+//         // double[] arr = {2.0,3.0,6.0,4.0,9.0,4.0};
+
+//         // for (int i = 0; i < 5; i++) {
+//         //     arr[i] = sc.nextDouble();
+//         // }
+
+//         // for (int i = 0; i < 5; i += 2) {
+//         //     System.out.print(arr[i] + " ");
+//         // }
+
+//         int rows = sc.nextInt();
+//         int cols = sc.nextInt();
+
+//         int[][] arr = new int[rows][cols];
+
+//         for (int i = 0; i < rows; i++) {
+//             for (int j = 0; j < cols; j++) {
+//                 arr[i][j] = sc.nextInt();
+//             }
+//         }
+
+//         for (int i = 0; i < rows; i++) {
+//             for (int j = 0; j < cols; j++) {
+//                 System.out.print(arr[i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+
+        
+//     }
+// }
+
+
+
+
+
+// public class Main{
+//     public static void main(String[] args) {
+//         Student s = new Student(101,"sds",2);
+
+//         Student ss = new Student("hkhhkhj");
+
+//         System.out.println(ss.name);
+//         System.out.println(ss.sid);
+//         System.out.println(s.name);
+//         System.out.println(s.roll);
+//         System.out.println(s.sid);
+        
+
+//     }
+// }
+
+
+class Employee{
+    public static void main(String[] args) {
+       
     }
 }
+
+
