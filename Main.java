@@ -274,27 +274,27 @@
 
 
 
-// public class Main{
-//     public static void main(String[] args) {
-//         Student s = new Student(101,"sds",2);
+public class Main{
+    public static void main(String[] args) {
+        Student s = new Student(101,"sds",2);
 
-//         Student ss = new Student("hkhhkhj");
+        Student ss = new Student("hkhhkhj");
 
-//         System.out.println(ss.name);
-//         System.out.println(ss.sid);
-//         System.out.println(s.name);
-//         System.out.println(s.roll);
-//         System.out.println(s.sid);
+        System.out.println(ss.name);
+        System.out.println(ss.sid);
+        System.out.println(s.name);
+        System.out.println(s.roll);
+        System.out.println(s.sid);
         
 
-//     }
-// }
-
-
-class Employee{
-    public static void main(String[] args) {
-       
     }
 }
+
+
+// class Employee{
+//     public static void main(String[] args) {
+       
+//     }
+// }
 
 
