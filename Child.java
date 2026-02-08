@@ -43,6 +43,6 @@ class EnggStudent extends Student{
         System.out.println(name);
         System.out.println(sid);
         System.out.println(stream);
-        System.out.println(percentage * sid);
+        System.out.println(percentage);
     }
 }
