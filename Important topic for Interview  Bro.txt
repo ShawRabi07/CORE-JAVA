@@ -1,0 +1,28 @@
+// Important topic for Interview // Bro Code(channel), Mosch
+
+1.Prototype
+2. Prototipal Inheritance 
+3. Getter setter
+4. call apply bind
+5. Class 
+6. extend 
+7. super
+8. constructor keyword inside the class.
+
+
+
+
+TO Run react 
+- React and React DOM
+
+
+
+Object Destructuring 
+let onj = {
+name: "dsk",
+age : 23,
+city : "njsnd"
+}
+
+let {city} = obj;
+console.log(city);
