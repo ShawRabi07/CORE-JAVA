@@ -47,10 +47,35 @@ public class LinkL {
 
         TreeMap<Integer, String> map = new TreeMap<>();
 
-        map.put(233, "sdasd");
-         map.put(23, "rabid");
-          map.put(2, "nextr");
-          System.out.println(map);
+        // map.put(233, "sdasd");
+        //  map.put(23, "rabid");
+        //   map.put(2, "nextr");
+        //   System.out.println(map);
+
+
+        Object[] arr = new Object[4];
+
+        arr[0] = "sdhfhfdh";
+        arr[1] = 23234;
+        arr[2] = "sdfklihsdvi";
+        arr[3] = 34567;
+
+        // System.out.println(arr.toString());
+        for(Object i : arr){
+            System.out.println(i);
+        }
+
+        //creating  method to check this object type array is accepting Object array or not
+        int curr = 5000;
+        int w = 3000;
+        try{
+            if(curr >= 5000){
+                System.out.println(curr - w);
+            }
+        }
+        catch(Exception e){
+            if(c)
+        }
 
     }
 }
