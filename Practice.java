@@ -3,6 +3,7 @@ public class Practice {
         int n = 5;
         int x = n^(n >> 1);
         System.out.println((x & ( x + 1)) == 0);
+        System.out.println("HELLO");
         System.out.println(x);
     }
 }
